@@ -1,6 +1,6 @@
-from helpers.SQL import dbb
+from helpers.mongo import cli
 
-gbun = dbb["GBAN"]
+gbun = cli["GBAN"]
 
 
 async def gban_user(user, reason="#GBanned"):
